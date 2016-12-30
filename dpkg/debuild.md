@@ -93,9 +93,9 @@ Using "**dch -i**" in "**/dpkg-test/hello-world**" can edit "**/dpkg-test/hello-
 
 TBD
 
-## Execute debuild
+# Generate a .deb file in /dpkg-test
 
-Generate a .deb file in /dpkg-test
+TBD
 
     root@9a7417b92dfe:/dpkg-test/hello-world# debuild -us -uc
      dpkg-buildpackage -rfakeroot -D -us -uc
