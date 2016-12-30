@@ -1,3 +1,3 @@
 # Linux Package Management
 
-A tutorial shows how to pack software in Linux.
+A tutorial shows how to package a software in Linux.
