@@ -17,8 +17,8 @@ Show you how to package a .deb file in Linux step by step.
         |-- Makefile
         `-- main.c
 
-## main.c
 ```c
+// main.c
 #include <stdio.h>
 
 int main()
@@ -28,8 +28,8 @@ int main()
 }
 ```
 
-## Makefile
 ```makefile
+# Makefile
 DESTDIR=/
 INSTALL_LOCATION=$(DESTDIR)/usr/
 CFLAGS:=$(shell dpkg-buildflags --get CFLAGS)
@@ -45,6 +45,8 @@ install:
 clean:
 	rm -f *.o hello-world
 ```
+*DESTDIR* sees [[3]](http://www.gnu.org/prep/standards/html_node/DESTDIR.html#DESTDIR
+)
 
 # Prepare Debian packaging
     root@9a7417b92dfe:/dpkg-test/hello-world# dh_make -p hello-world_0.1 --createorig
@@ -66,7 +68,7 @@ clean:
 
 ## /dpkg-test/hello-world/debian/control
 
-TBD
+Provide the main meta data for the Debian package.
 
     Source: hello-world
     Priority: optional
@@ -91,11 +93,9 @@ Using "**dch -i**" in "**/dpkg-test/hello-world**" can edit "**/dpkg-test/hello-
 
 ## /dpkg-test/hello-world/debian/rules
 
-TBD
+Define how the Debian binary package is built.
 
 # Generate a .deb file in /dpkg-test
-
-TBD
 
     root@9a7417b92dfe:/dpkg-test/hello-world# debuild -us -uc
      dpkg-buildpackage -rfakeroot -D -us -uc
@@ -196,3 +196,5 @@ TBD
 # Reference
 1. https://www.debian.org/doc/manuals/maint-guide/index.en.html
 2. http://santi-bassett.blogspot.tw/2014/07/how-to-create-debian-package.html
+3. http://www.gnu.org/prep/standards/html_node/DESTDIR.html#DESTDIR
+4. https://wiki.debian.org/Hardening

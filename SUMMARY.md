@@ -1,5 +1,5 @@
 # Summary
 
 * [Introduction](README.md)
-* [dpkg](dpkg/README.md)
+* dpkg
     * [debuild](dpkg/debuild.md)
