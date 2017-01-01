@@ -1,4 +1,4 @@
-Show you how to package a .deb file in Linux step by step.
+Show you how to package a .deb file in Debian/Ubuntu step by step.
 
 # Test environment
 * Docker image: ubuntu:16.04
