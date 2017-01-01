@@ -13,7 +13,7 @@ Show you how to package a .deb file in Debian/Ubuntu step by step.
 
 # Sample
     dpkg-test/
-    `-- hello-world
+    `-- hello-world/
         |-- Makefile
         `-- main.c
 
