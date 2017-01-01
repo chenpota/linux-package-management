@@ -194,7 +194,10 @@ Define how the Debian binary package is built.
     hello world!!
     
 # Reference
-1. https://www.debian.org/doc/manuals/maint-guide/index.en.html
-2. http://santi-bassett.blogspot.tw/2014/07/how-to-create-debian-package.html
-3. http://www.gnu.org/prep/standards/html_node/DESTDIR.html#DESTDIR
-4. https://wiki.debian.org/Hardening
+[^[1]] https://www.debian.org/doc/manuals/maint-guide/index.en.html
+
+[^[2]] http://santi-bassett.blogspot.tw/2014/07/how-to-create-debian-package.html
+
+[^[3]] http://www.gnu.org/prep/standards/html_node/DESTDIR.html#DESTDIR
+
+[^[4]] https://wiki.debian.org/Hardening
