@@ -1,6 +1,6 @@
 # Linux Package Management
 
-A tutorial shows how to package a software in Linux.
+A tutorial shows how to package a software in Debian/Ubuntu.
 
 * [Introduction](README.md)
 * dpkg
