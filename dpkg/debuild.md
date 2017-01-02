@@ -202,4 +202,4 @@ Define how the Debian binary package is built.
 
 [^4] https://wiki.debian.org/Hardening
 
-[^5] https://www.debian.org/doc/debian-policy/ch-archive.html#s-subsections
+[^5] https://www.debian.org/doc/debian-policy/ch-archive.html
