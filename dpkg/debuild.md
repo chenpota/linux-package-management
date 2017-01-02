@@ -68,7 +68,7 @@ clean:
 
 ## /dpkg-test/hello-world/debian/control
 
-Provide the main meta data for the Debian package. [^[5]]
+Provide the main meta data for the Debian package. [^5]
 
     Source: hello-world
     Priority: optional
@@ -194,12 +194,12 @@ Define how the Debian binary package is built.
     hello world!!
     
 # Reference
-[^[1]] https://www.debian.org/doc/manuals/maint-guide/index.en.html
+[^1] https://www.debian.org/doc/manuals/maint-guide/index.en.html
 
-[^[2]] http://santi-bassett.blogspot.tw/2014/07/how-to-create-debian-package.html
+[^2] http://santi-bassett.blogspot.tw/2014/07/how-to-create-debian-package.html
 
-[^[3]] http://www.gnu.org/prep/standards/html_node/DESTDIR.html#DESTDIR
+[^3] http://www.gnu.org/prep/standards/html_node/DESTDIR.html#DESTDIR
 
-[^[4]] https://wiki.debian.org/Hardening
+[^4] https://wiki.debian.org/Hardening
 
-[^[5]] https://www.debian.org/doc/debian-policy/ch-archive.html#s-subsections
+[^5] https://www.debian.org/doc/debian-policy/ch-archive.html#s-subsections
