@@ -2,5 +2,5 @@
 
 * [Introduction](README.md)
 * debian
-    * [debuild](debian/build-debian-package.md)
+    * [Build Debian package](debian/build-debian-package.md)
 
