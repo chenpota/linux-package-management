@@ -1,6 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-* dpkg
+* debian
     * [debuild](debian/build-debian-package.md)
 
